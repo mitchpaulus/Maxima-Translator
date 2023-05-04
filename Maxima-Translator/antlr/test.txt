@@ -1,0 +1,10 @@
+matrix([-(c*m*(mw/ma)^m)/ma,-1,0,0],[Cs/(Cw*mw),0,-1,0],
+             [0,
+              ((mstar-1)*mstar*(1-%e^-((1-mstar)*ntu))*%e^-((1-mstar)*ntu))
+               /(1-mstar*%e^-((1-mstar)*ntu))^2
+               -((mstar-1)*%e^-((1-mstar)*ntu))/(1-mstar*%e^-((1-mstar)*ntu)),
+              (-(ntu*%e^-((1-mstar)*ntu))/(1-mstar*%e^-((1-mstar)*ntu)))
+               -((1-%e^-((1-mstar)*ntu))
+                *((-mstar*ntu*%e^-((1-mstar)*ntu))-%e^-((1-mstar)*ntu)))
+                /(1-mstar*%e^-((1-mstar)*ntu))^2,-1],
+             [eff*(haswi-hai),0,0,(haswi-hai)*ma])
